@@ -38,6 +38,8 @@ gem 'carrierwave'
 
 gem 'jquery-rails'
 
+gem 'simple_form'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
