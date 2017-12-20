@@ -40,6 +40,7 @@ gem 'jquery-rails'
 
 gem 'simple_form'
 
+gem 'acts_as_votable', '~> 0.10.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
