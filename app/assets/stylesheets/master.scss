@@ -87,7 +87,12 @@ nav {
 }
 
 .user_edit_button {
-  margin-top: 25px;
+  margin-top: 25px;.post_like {
+  .fa {
+    font-size: 20px;
+  }
+}
+
   border-color: #818488;
   color: #818488;
 }
@@ -102,4 +107,10 @@ nav {
   border-radius: 50%;
   height: 28px;
   width: 28px;
+}
+
+.post_like {
+  .fa {
+    font-size: 40px;
+  }
 }

@@ -41,6 +41,8 @@ gem 'jquery-rails'
 gem 'simple_form'
 
 gem 'acts_as_votable', '~> 0.10.0'
+
+gem 'font-awesome-sass', '~> 4.6.2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
