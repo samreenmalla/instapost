@@ -3,11 +3,12 @@ Rails.application.routes.draw do
 
   root 'posts#index'
 
-  resources :posts do
+  	resources :posts do
   resources :comments
-  resources :users, only: :show
-
+  resources :upvotes, only: :create
+  resources :downvotes, only: :create
 end
+  resources :users, only: :show
   #resources :post
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
