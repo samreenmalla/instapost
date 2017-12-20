@@ -4,13 +4,13 @@
   <%= devise_error_messages! %>
 
   <div class="field">
-  <%= f.label :name %><br />
-  <%= f.text_field :name, autofocus: true, required: true %>
-</div>
+    <%= f.label :name %><br />
+    <%= f.text_field :name, autofocus: true, required: true %>
+  </div>
 
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, required: true %>
+    <%= f.email_field :email, required: true %>
   </div>
 
   <div class="field">
@@ -29,7 +29,7 @@
   <div class="field">
     <%= f.label 'Profile Picture' %><br>
     <%= f.file_field :photo %>
-  </div>
+  </div>  
 
   <div class="actions">
     <%= f.submit "Sign up" %>
